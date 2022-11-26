@@ -13,7 +13,7 @@ console.log (total);
 
 
 if (userMoney >= total) {
-    elDesc.textContent= 'Oq yo\l' + ' ' + userName + '!'; 
+    elDesc.textContent= 'Oq yo\l' + ' ' + userName.toUpperCase + '!'; 
 }else {
-    elDesc.textContent= userName + ' ' + 'Ozgina sabr qilish kerak bo\'lar ekan!';
+    elDesc.textContent= userName.toUpperCase + ' ' + 'Ozgina sabr qilish kerak bo\'lar ekan!';
 }
