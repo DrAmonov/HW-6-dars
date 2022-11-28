@@ -14,6 +14,11 @@ console.log (total);
 
 if (userMoney >= total) {
     elDesc.textContent= 'Oq yo\l' + ' ' + userName + '!'; 
-}else {
+} else if (userMoney <0) {
+    elDesc.textContent= 'Hisobingiz minusda' + ' ' + userName + '!';
+}else if (userMoney = isNaN(userMoney) == true) {
+    elDesc.textContent='raqam kiriting' + ' ' + userName;
+}
+else {
     elDesc.textContent= userName + ' ' + 'Ozgina sabr qilish kerak bo\'lar ekan!';
 }
